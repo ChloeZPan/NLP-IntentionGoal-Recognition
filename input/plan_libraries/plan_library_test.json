@@ -6,7 +6,7 @@
     "(ONT::DIRECTIVE ?x:ONT::PERSON ?w:ONT::MONEY)",
     "(ONT::DEPART ?x:ONT::PERSON ?z:ONT::FACILITY)"]
   },
-  
+
   {"goal": "(ONT::DEPART ?x:ONT::ORGANISM ?y:ONT::COUNTRY)",
    "acts": [
      "(ONT::SELF-LOCOMOTE ?x:ONT::ORGANISM ?z:ONT::AIRPORT)",
@@ -14,7 +14,7 @@
      "(ONT::RIDE ?x:ONT::ORGANISM ?v:ONT::AIR-VEHICLE)",
      "(ONT::DEPART ?v:ONT::AIR-VEHICLE ?y:ONT::COUNTRY)"]
   },
-  
+
   {"goal": "(ONT::BECOME ?x:ONT::PERSON ?w:ONT::PROFESSIONAL)",
    "acts": [
      "(ONT::MANAGING ?x:ONT::PERSON ?y:ONT::COMMERCIAL-FACILITY)",

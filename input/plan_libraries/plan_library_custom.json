@@ -1,1 +1,23 @@
-[]
+[
+  {"goal": "(ONT::SCRUTINY ?x:ONT::PERSON ?y:ONT::FACILITY)",
+   "acts": [
+    "(ONT::PLACE-IN-POSITION ?W:ONT::VEHICLE ?y:ONT::FACILITY)",
+    "(ONT::PURCHASE ?x:ONT::PERSON ?y:ONT::ATTIRE)",
+    "(ONT::FILL-CONTAINER ?x:ONT::PERSON ?w:ONT::VEHICLE)"]
+  },
+
+  {"goal": "(ONT::EAT ?x:ONT::PERSON ?y:ONT::FACILITY)",
+   "acts": [
+     "(ONT::PLACE-IN-POSITION ?W:ONT::VEHICLE ?y:ONT::FACILITY)",
+     "(ONT::RESERVE ?w:ONT::SYMBOLIC-REPRESENTATION ?u:ONT::FOOD)",
+     "(ONT::RESERVE ?x:ONT::PERSON ?y:ONT::FACILITY)",
+     "(ONT::CONSUME ?v:ONT::CONTAINER ?u:ONT::FOOD)"]
+  },
+
+  {"goal": "(ONT::SCRUTINY ?x:ONT::PERSON ?w:ONT::COMPOSITION)",
+   "acts": [
+     "(ONT::PURCHASE ?w:ONT::PLACE ?y:ONT::OFFICIAL-DOCUMENT)",
+     "(ONT::DISCUSS ?x:ONT::PERSON ?z:ONT::PERSON)",
+     "(ONT::CONSUME ?v:ONT::CONTAINER ?u:ONT::FOOD)"]
+  }
+]
