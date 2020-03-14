@@ -1,8 +1,7 @@
 Project2
 ------------------------------
 Name: Zeyi Pan
-Student ID: 31633987
-Email: zpan12@ur.rochester.edu
+
 
 ------------------------------
 Algorithm recognize_intent
